@@ -66,7 +66,7 @@ Populate properties only from visible page content or user-provided facts; for a
 > - **FAQPage**: Google **retired FAQ rich results on 2026-05-07**; they now show only for authoritative government/health sites. The markup is still valid Schema.org and useful for AI/answer engines (AEO) and entity understanding, but for most sites it **no longer produces a rich result** — do not promise SERP FAQ accordions.
 > - **HowTo**: Google **deprecated HowTo rich results on desktop (2023)**. Generate HowTo for semantic/AEO value and content structure, **not** for a rich-result promise.
 >
-> Run the bundled local pre-flight before the manual UI step: `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/schema_lint.py" <url>` (extracts JSON-LD, checks required/recommended properties, and flags these deprecations). It is a pre-check, not a replacement for Google's Rich Results Test.
+> Run the bundled local pre-flight before the manual UI step: `python3 "scripts/connectors/schema_lint.py" <url>` (extracts JSON-LD, checks required/recommended properties, and flags these deprecations). It is a pre-check, not a replacement for Google's Rich Results Test.
 
 > **Reference**: See [Instructions Detail](references/instructions-detail.md) for the mapping table, eligibility matrix, implementation guide, validation checklist, FAQ example, and tips. See [Schema Templates](references/schema-templates.md) for compact starter JSON-LD blocks.
 

@@ -81,7 +81,7 @@ See [references/bulk-audit-playbook.md](references/bulk-audit-playbook.md) for t
 
 Use ~~web crawler, ~~SEO tool, and ~~search console when connected; otherwise ask for page URL/HTML, target keywords, and competitor URLs. See [CONNECTORS.md](../../../CONNECTORS.md) and [SECURITY.md §Scraping Boundaries](../../../SECURITY.md).
 
-**Zero-dependency local helpers** (no tool needed): `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/onpage.py" <url>` (title/meta/headings/canonical/JSON-LD/redirects) and `schema_lint.py <url>` (structured-data validation). See [scripts/connectors/README.md](../../../scripts/connectors/README.md).
+**Zero-dependency local helpers** (no tool needed): `python3 "scripts/connectors/onpage.py" <url>` (title/meta/headings/canonical/JSON-LD/redirects) and `schema_lint.py <url>` (structured-data validation). See [scripts/connectors/README.md](../../../scripts/connectors/README.md).
 
 ## Instructions
 

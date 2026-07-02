@@ -48,7 +48,7 @@ Optimize anchor text across the site
 
 Uses ~~web crawler and ~~analytics when connected; otherwise asks user for sitemap, key page URLs, and content categories. See [CONNECTORS.md](../../../CONNECTORS.md) and [SECURITY.md §Scraping Boundaries](../../../SECURITY.md).
 
-**Zero-dependency local helper** (no tool needed): `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/crawl.py" <url> | python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/linkgraph.py" -` computes orphans, click-depth, and internal PageRank from a live crawl. See [scripts/connectors/README.md](../../../scripts/connectors/README.md).
+**Zero-dependency local helper** (no tool needed): `python3 "scripts/connectors/crawl.py" <url> | python3 "scripts/connectors/linkgraph.py" -` computes orphans, click-depth, and internal PageRank from a live crawl. See [scripts/connectors/README.md](../../../scripts/connectors/README.md).
 
 ## Instructions
 

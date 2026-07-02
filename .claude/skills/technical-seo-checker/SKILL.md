@@ -95,7 +95,7 @@ See [references/bulk-audit-playbook.md](references/bulk-audit-playbook.md) for t
 
 Use ~~web crawler, ~~page speed tool, and ~~CDN when connected; otherwise ask for URLs, PageSpeed reports, robots.txt, and sitemap. See [CONNECTORS.md](../../../CONNECTORS.md) and [SECURITY.md §Scraping Boundaries](../../../SECURITY.md).
 
-**Zero-dependency local helpers** (no tool needed, run yourself): `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/robots.py" <url> --check-ai-bots` · `sitemap.py <url>` · `crawl.py <url>` · `onpage.py <url>` · `psi.py <url>` (Core Web Vitals). To prove a fix worked, pipe a run into the ledger and diff it: `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/psi.py" <url> | python3 "${CLAUDE_PLUGIN_ROOT}/scripts/connectors/ledger.py" record <url> --source psi`, then the same `ledger.py diff <url> --source psi` shows the LCP/INP/CLS movement since the last run. See [scripts/connectors/README.md](../../../scripts/connectors/README.md).
+**Zero-dependency local helpers** (no tool needed, run yourself): `python3 "scripts/connectors/robots.py" <url> --check-ai-bots` · `sitemap.py <url>` · `crawl.py <url>` · `onpage.py <url>` · `psi.py <url>` (Core Web Vitals). To prove a fix worked, pipe a run into the ledger and diff it: `python3 "scripts/connectors/psi.py" <url> | python3 "scripts/connectors/ledger.py" record <url> --source psi`, then the same `ledger.py diff <url> --source psi` shows the LCP/INP/CLS movement since the last run. See [scripts/connectors/README.md](../../../scripts/connectors/README.md).
 
 ## Instructions
 
