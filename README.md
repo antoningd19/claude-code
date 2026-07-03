@@ -1,7 +1,5 @@
 # SEO & GEO Skills Library
 
-> **📦 Also bundled in [aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills)** — the unified library that combines these SEO/GEO skills with influencer-marketing skills (CORE-EEAT · CITE · C³). This repo is the standalone SEO/GEO edition.
-
 **20 skills. 5 commands. Plan, audit, and monitor SEO/GEO work.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/aaron-he-zhu/seo-geo-claude-skills?style=flat)](https://github.com/aaron-he-zhu/seo-geo-claude-skills)
@@ -10,7 +8,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/aaron-he-zhu/seo-geo-claude-skills)](https://github.com/aaron-he-zhu/seo-geo-claude-skills/commits/main)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-purple)](https://claude.ai/download)
 
-[English](README.md) | [中文](docs/README.zh.md)
+[English](README.md)
 
 Claude Skills and Commands for Search Engine Optimization (SEO) and Generative Engine Optimization (GEO). Skill content is zero-dependency Markdown; Claude Code hooks use a small Bash runner. Content quality uses [CORE-EEAT](https://github.com/aaron-he-zhu/core-eeat-content-benchmark) (80 items); domain trust uses [CITE](https://github.com/aaron-he-zhu/cite-domain-rating) (40 items).
 
