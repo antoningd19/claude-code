@@ -16,7 +16,7 @@ Install with Claude Code, any Agent Skills-compatible host, or a plain `git clon
 | skills.sh / generic Agent Skills hosts | `npx skills add aaron-he-zhu/seo-geo-claude-skills` |
 | Any host | `git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills` |
 
-In Claude Code, `marketplace add` only registers the catalog — run `/plugin install aaron-seo-geo@aaron` (or pick it from `/plugin`) to actually enable the skills and commands. Single skill on generic hosts: `npx skills add aaron-he-zhu/seo-geo-claude-skills -s keyword-research`.
+In Claude Code, `marketplace add` only registers the catalog - run `/plugin install aaron-seo-geo@aaron` (or pick it from `/plugin`) to actually enable the skills and commands. Single skill on generic hosts: `npx skills add aaron-he-zhu/seo-geo-claude-skills -s keyword-research`.
 
 If your host supports automatic skill routing, try a natural-language request:
 
@@ -63,7 +63,7 @@ Five commands, organized by SEO/GEO intent:
 
 | Command | Use it for |
 |---------|-----------|
-| `/aaron-seo-geo:auto` | Describe any goal — infers intent and runs the smallest useful workflow (`--deep` for exhaustive/stress-test) |
+| `/aaron-seo-geo:auto` | Describe any goal - infers intent and runs the smallest useful workflow (`--deep` for exhaustive/stress-test) |
 | `/aaron-seo-geo:research` | Keyword demand, SERP intent, competitors, content gaps, site/topic/entity maps |
 | `/aaron-seo-geo:create` | Brief, write, series, refresh, CMS-neutral publish package (`--brief`/`--series`/`--refresh`/`--publish`/`--meta`/`--schema`) |
 | `/aaron-seo-geo:audit` | On-page + CORE-EEAT quality, technical SEO, AI visibility, domain authority (`--full`/`--tech`/`--visibility`/`--authority`) |
